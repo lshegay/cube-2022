@@ -22,7 +22,7 @@ const Page: NextPage = () => {
         <div className="flex flex-col lg:flex-row">
           <div className="flex flex-grow flex-col mb-8 sm:mr-0 lg:mr-8 lg:mb-0">
             <div className="aspect-video w-full bg-neutral-100 mb-10 relative">
-              <span className="absolute top-1/2 left-1/2 translate-x--1/2 translate-y--1/2 text-neutral-300">video placeholder</span>
+              <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-neutral-300">video placeholder</span>
             </div>
             <LessonFooter description={videoLesson.description} files={videoLesson.files} />
           </div>
